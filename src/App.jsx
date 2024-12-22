@@ -10,6 +10,7 @@ import data from './component/tree-view/data';
 import QRCodeGenerator from "./component/qr-code-generator";
 import LightDarkMode from "./component/light-dark-mode";
 import ScrollIndicator from "./component/scroll-indicator";
+import TabsTest from "./component/custom-tab/tabs-test";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +25,8 @@ function App() {
       {/* <TreeList menu={data}/> */}
       {/* <QRCodeGenerator/> */}
       {/* <LightDarkMode/> */}
-      <ScrollIndicator url="https://dummyjson.com/products?limit=100"/>
+      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100"/> */}
+      <TabsTest/>
     </div>
   );
 }
