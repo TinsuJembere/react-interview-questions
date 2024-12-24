@@ -13,6 +13,7 @@ import ScrollIndicator from "./component/scroll-indicator";
 import TabsTest from "./component/custom-tab/tabs-test";
 import ModalPopUp from "./component/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./component/github-profile-finder";
+import SearchAuthoComplete from "./component/authoComplete-search";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -30,7 +31,8 @@ function App() {
       {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100"/> */}
       {/* <TabsTest/> */}
       {/* <ModalPopUp/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <SearchAuthoComplete/>
     </div>
   );
 }
