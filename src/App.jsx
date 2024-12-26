@@ -14,6 +14,7 @@ import TabsTest from "./component/custom-tab/tabs-test";
 import ModalPopUp from "./component/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./component/github-profile-finder";
 import SearchAuthoComplete from "./component/authoComplete-search";
+import TicTacToe from "./component/tictactoe";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,7 +33,8 @@ function App() {
       {/* <TabsTest/> */}
       {/* <ModalPopUp/> */}
       {/* <GithubProfileFinder/> */}
-      <SearchAuthoComplete/>
+      {/* <SearchAuthoComplete/> */}
+      <TicTacToe/>
     </div>
   );
 }
