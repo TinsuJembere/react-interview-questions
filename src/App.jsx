@@ -15,6 +15,8 @@ import ModalPopUp from "./component/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./component/github-profile-finder";
 import SearchAuthoComplete from "./component/authoComplete-search";
 import TicTacToe from "./component/tictactoe";
+import FeaturedFlagsGlobalContext from "./component/feature-flag/context";
+import FeatureFlag from "./component/feature-flag";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,7 +36,10 @@ function App() {
       {/* <ModalPopUp/> */}
       {/* <GithubProfileFinder/> */}
       {/* <SearchAuthoComplete/> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      {/* <FeaturedFlagsGlobalContext>
+        <FeatureFlag/>
+      </FeaturedFlagsGlobalContext> */}
     </div>
   );
 }
