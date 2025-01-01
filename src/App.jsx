@@ -17,6 +17,10 @@ import SearchAuthoComplete from "./component/authoComplete-search";
 import TicTacToe from "./component/tictactoe";
 import FeaturedFlagsGlobalContext from "./component/feature-flag/context";
 import FeatureFlag from "./component/feature-flag";
+import UseFetchHookTest from "./component/use-fetch/text";
+import UseOnclickOutsideTest from "./component/use-outside-click/test";
+import UseWindowResizeTest from "./component/use-window-resize/test";
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -40,6 +44,9 @@ function App() {
       {/* <FeaturedFlagsGlobalContext>
         <FeatureFlag/>
       </FeaturedFlagsGlobalContext> */}
+      {/* <UseFetchHookTest/> */}
+      {/* <UseOnclickOutsideTest/> */}
+      <UseWindowResizeTest/>
     </div>
   );
 }
