@@ -1,0 +1,19 @@
+*{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-btn{
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+}
+.scroll-btn button{
+    margin-right: 20px;
+}
