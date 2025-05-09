@@ -29,27 +29,27 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Accordion /> */}
-      {/*<RandomColor />*/}
-      {/* <StarRating noOfStar={10} /> */}
-      {/* <ImageSlider limit={'5'} page={'1'} url={'https://picsum.photos/v2/list'}/> */}
-      {/* <LoadData /> */}
-      {/* <TreeList menu={data}/> */}
-      {/* <QRCodeGenerator/> */}
-      {/* <LightDarkMode/> */}
-      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100"/> */}
-      {/* <TabsTest/> */}
-      {/* <ModalPopUp/> */}
-      {/* <GithubProfileFinder/> */}
-      {/* <SearchAuthoComplete/> */}
-      {/* <TicTacToe/> */}
-      {/* <FeaturedFlagsGlobalContext>
+      <Accordion /> */}
+      <RandomColor />
+      <StarRating noOfStar={10} />
+      <ImageSlider limit={'5'} page={'1'} url={'https://picsum.photos/v2/list'}/>
+      <LoadData />
+      <TreeList menu={data}/>
+      <QRCodeGenerator/>
+      <LightDarkMode/>
+      <ScrollIndicator url="https://dummyjson.com/products?limit=100"/>
+      <TabsTest/>
+      <ModalPopUp/>
+      <GithubProfileFinder/>
+      <SearchAuthoComplete/>
+      <TicTacToe/>
+     <FeaturedFlagsGlobalContext> 
         <FeatureFlag/>
-      </FeaturedFlagsGlobalContext> */}
-      {/* <UseFetchHookTest/> */}
-      {/* <UseOnclickOutsideTest/> */}
-      {/* <UseWindowResizeTest/> */}
-      {/* <ScrollToTopAndButtom/> */}
+      </FeaturedFlagsGlobalContext> 
+      <UseFetchHookTest/>
+      <UseOnclickOutsideTest/>
+      <UseWindowResizeTest/>
+      <ScrollToTopAndButtom/>
       <ScrollToParticularSection/>
     </div>
   );
