@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <Accordion /> */}
+      <Accordion /> 
       <RandomColor />
       <StarRating noOfStar={10} />
       <ImageSlider limit={'5'} page={'1'} url={'https://picsum.photos/v2/list'}/>
